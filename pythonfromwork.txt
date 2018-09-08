@@ -1,0 +1,366 @@
+Ctrl+Shift+I
+
+Submit pyspark job:
+spark-submit --py-files (resources.py/.zip etc) (main_file.py) --arg1 (val1)
+
+
+Python support only DataFrames(it's dynamically typed language)
+To load data in spark:
+
+To run python spark shell:
+pyspark
+To read csv:
+df = spark.read.csv("/home/tzablock/IdeaProjects/SparkTry/src/main/resources/conv.csv").toDF("a","b","c")
+To run python script:
+python3 script_name.py
+
+java jar -> python wheel or egg
+
+
+
+To go into new block(instead of { and } ):
+
+4 x Space
+
+List:
+
+list = []
+
+list.append(..)
+
+We can add to list varibales of diffrent type.
+
+list + list1 -> concatenate lists
+
+list*2 -> multiply list (make duplication)
+
+For each loop:
+
+for x in list:
+
+    ....
+
+else:
+
+    ....
+
+If clouse:
+
+if ... :
+
+    ....
+
+User input/output on console:
+
+input("text_before_input")
+
+
+
+To make python script work on linux:
+
+#!/usr/bin/python
+
+Comment:
+
+# some comment
+
+Multiline print:
+
+Keep whitespaces etc
+
+print('''
+
+Multiline
+
+print
+
+''')
+
+Make module from .py file:
+
+if __name__ == '__main__':
+    print('such great module!!!!')
+
+It checks if we run this exact file 1. as main (just we write it directly) or if we use it 2. as a module (run from other file).
+
+In 1 case it will print such gret module
+
+In 2 it won't
+
+To use file as a module :
+
+import filename
+
+Write to file:
+
+If file not exist it will be created
+
+file=open("file/path","w") //w->write a->append
+
+file.write("content")
+
+file.close()
+
+Read file:
+
+As string
+
+c=open("file/path","r").read()
+
+As list
+
+lc=open("file/path",'r').readlines()
+
+Function parameters:
+
+(1,2)
+
+Or
+
+(par1=1,par2=2)
+
+a.    Default:
+
+def fun(a, b=2)
+
+
+
+Install python modules:
+
+sudo apt-get install module_name
+
+Pip (dependency menagement):
+
+pip install packagename
+
+pip install --upgrade packagename
+
+If proper version not exist in pip:
+
+https://www.lfd.uci.edu/~gohlke/pythonlibs/
+
+pip install "... .whl" -> in directry with this package like Download
+
+Scope:
+
+x = 2
+
+def func():
+
+     print(x)   //we can only access x
+
+x = 3
+
+def func1():
+
+     global x
+
+     x+=5  //because of global we can modifie x but it's bad practise
+
+Insetad:
+
+x=3
+
+def func1():
+
+    locX=x
+
+    locX+=5
+
+Or:
+
+x=3
+
+def func1(x):
+
+    x+=5
+
+   return x
+
+x=func1(x)
+
+Num:
+
+x**y -> x do potegi y
+
+String:
+
+"str"*2 -> multiply string ("strstr")
+
+len("..") -> count string lenght
+
+"..".index("d") -> returns index of "d"
+
+"..".count("o") -> count number of "o" in string
+
+str[indexInc:indexExc] -> take substring with first index inclusive and second exclusive
+
+str[inx:] -> take from idex to end
+
+str[:idx] -> take from beginning into idex
+
+str[-indexInc:-indexExc] -> take counting from end
+
+str[indexInc:indexEcl:step] -> take every step charakter from indexinc intu indexEcl
+
+str[::-1] -> reverse string
+
+Instead of java contains:
+
+".." in stringname
+
+Dictionaries(Mapa):
+
+Init:
+
+{key:val,key1:val1}
+
+Or:
+
+dict["key"] = val
+
+Iteration:
+
+for key,val in dict.items():
+
+    ....
+
+Removing val :
+
+dict.pop("key")
+
+String Formatting:
+
+For one variable:
+
+"%s" % var
+
+For multiple variable:
+
+"%s %s" % (var,var1)
+
+
+
+%s string
+
+%d Integers
+
+%f floating points num
+
+%.<num>f floating point with num digits
+
+
+
+Boolean:
+
+and,or -> boolean operators
+
+x in list -> check if x exist in list
+
+If object: -> go to block if object is not considered as empty([],"" etc)
+
+== -> match values
+
+is -> match instances
+
+not -> inverts boolean
+
+
+
+Cast:
+
+To sting -> str(...)
+
+To int -> int('..')
+
+To float -> float('...')
+
+Exponent:
+
+x**y -> x to y
+
+Function:
+
+def name():
+
+    ....
+
+Class:
+
+class name:
+
+      varibale = ..
+
+      def funtion(self):
+
+          ....
+
+Module:
+
+just .py file
+
+
+
+module work as singleton when is imported (every change in any other module on it will make change for others as well)
+
+
+
+To load modules from other folder:
+
+
+
+To import module:
+
+import modulename
+
+To import module from package:
+
+import packagename.modulename
+
+To import function etc:(preffered):
+
+from modulename import functionname
+
+from modulename import *
+
+To import module under other name:
+
+import modulename as newname
+
+Np:
+
+If ....
+
+    import a as c
+
+Else
+
+    import b as c
+
+....
+
+To make from folder package add to it file __init__.py
+
+
+
+To check functions in python shell:
+
+1.import lib
+
+2.dir(libname) -> will show availabe functions
+
+3.help(libname.functionname) -> will describe function
+
+
+
+Lambda in python:
+
+lambda cos: cos+1 -> lambda is implemented like this
+
+map(lambda ..., collection)
+
+filter(lambda ..., collection)
+
+...
+
+Map filet returns lazy objects.
