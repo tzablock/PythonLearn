@@ -3,6 +3,17 @@ Ctrl+Shift+I
 Submit pyspark job:
 spark-submit --py-files (resources.py/.zip etc) (main_file.py) --arg1 (val1)
 
+To make zip file with project modules for spark:
+1. zip zipFileName.zip fileToZip.py
+2. Add ziped modules to project:
+import sys
+sys.path.insert(0,"zipFileName.zip")
+3. Import anything from module like in all modules(Module.py must be in zip):
+from Module import printIfWork
+
+To make runnable zip:
+1. make someZip.zip with main py file : __main__.py
+2. run it as: python3 someZip.zip
 
 Python support only DataFrames(it's dynamically typed language)
 To load data in spark:
