@@ -1,5 +1,42 @@
 Ctrl+Shift+I
 
+Don't use object field in rdd operations because it will cause hole object serialization(example referencingToClassInPyspark)
+
+Tuple:
+Is immutable and can by unpack like in scala:
+tuple - a,b,c ... or (a,b,c ...)
+def tup():
+    return 2,3
+x,y = tup()
+
+To check python3 paths(with lib etc):
+1. python3
+2. import sys
+3. sys.path
+If we would like to add own modules:
+4. find /.../python3.6/site-packages
+5. add module to it
+
+Python support only DataFrames(it's dynamically typed language)
+To load data in spark:
+
+To run python spark shell:
+pyspark
+To read csv:
+df = spark.read.csv("/home/tzablock/IdeaProjects/SparkTry/src/main/resources/conv.csv").toDF("a","b","c")
+To run python script:
+python3 script_name.py
+
+java jar -> python wheel or egg
+
+For statistic operation like mean etc(statistics module):
+import statistics
+
+To import module in shorten name:
+import module as m
+To import all functions from module:
+from statistics import *
+
 Submit pyspark job:
 spark-submit --py-files (resources.py/.zip etc) (main_file.py) --arg1 (val1)
 
