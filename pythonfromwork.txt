@@ -2,6 +2,17 @@ Ctrl+Shift+I
 
 Don't use object field in rdd operations because it will cause hole object serialization(example referencingToClassInPyspark)
 
+Csv read:
+1. with open("/home/tzablock/IdeaProjects/PythonLearn/repository/examplecsv.csv") as exampleCSV:
+2.     readCSV = csv.reader(exampleCSV,delimiter = ',')
+we get list of lists with elements from row
+
+Exception handling:
+try:
+   .....
+except Exception as e:
+  print(e)
+
 Tuple:
 Is immutable and can by unpack like in scala:
 tuple - a,b,c ... or (a,b,c ...)
@@ -71,10 +82,10 @@ To go into new block(instead of { and } ):
 4 x Space
 
 List:
-
 list = []
-
+add:
 list.append(..)
+-> list.py
 
 We can add to list varibales of diffrent type.
 
