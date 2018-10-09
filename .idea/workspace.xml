@@ -2,21 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e103cbf0-7712-4fc1-96d8-6a166c1297ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/spark/python/builtInFunctions/Start.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spark/python/builtInFunctions/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spark/python/collection/dictionary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spark/python/csvRead/Start.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spark/python/csvRead/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spark/python/exceptionHandling/Start.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spark/python/multilinePrint/Start.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spark/python/multilinePrint/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spark/python/osModuleToOperateOnDirs/Start.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spark/python/osModuleToOperateOnDirs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spark/setOperations/Start.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spark/setOperations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/aggregation/Start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/aggregation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/keyValPairs/Start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/partitioning/Start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/partitioning/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/python/cxFreezCreatingPythonExecutable/ScriptToBeExecutable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/python/cxFreezCreatingPythonExecutable/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/python/cxFreezCreatingPythonExecutable/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/python/evaluationmodule/Start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/python/serialization/Start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/python/socket/Start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/python/socket/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/python/subprocessRunningShellCommandsFromPython/Start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/python/subprocessRunningShellCommandsFromPython/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/python/sysModule/Arguments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/python/sysModule/Logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/python/sysModule/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/python/takingAndSendingFileIntoFTP/Start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/python/takingAndSendingFileIntoFTP/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/python/threading/Start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/python/threading/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/python/urllibToOperateOnWebPages/Start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spark/python/urllibToOperateOnWebPages/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pythonfromwork.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pythonfromwork.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spark/python/collection/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/spark/python/collection/list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spark/python/ownmodule/Start.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/spark/python/ownmodule/Start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,18 +43,20 @@
         <counts>
           <entry key="project.closed" value="4" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="6" />
           <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -51,8 +65,9 @@
           <entry key="csv" value="5" />
           <entry key="iml" value="1" />
           <entry key="json" value="4" />
-          <entry key="py" value="28" />
-          <entry key="txt" value="8" />
+          <entry key="py" value="45" />
+          <entry key="repositorydictfile" value="1" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -60,71 +75,48 @@
           <entry key="CSV" value="1" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JSON" value="4" />
-          <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="28" />
+          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="Python" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="csv" value="19" />
-          <entry key="dummy" value="12" />
+          <entry key="dummy" value="25" />
           <entry key="json" value="1" />
-          <entry key="py" value="3796" />
-          <entry key="txt" value="1149" />
+          <entry key="py" value="6602" />
+          <entry key="txt" value="2390" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="1180" />
-          <entry key="Python" value="3796" />
+          <entry key="PLAIN_TEXT" value="2434" />
+          <entry key="Python" value="6602" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spark/setOperations/Start.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spark/python/collection/dictionary.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spark/python/builtInFunctions/Start.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/spark/python/osModuleToOperateOnDirs/Start.py">
+        <entry file="file://$PROJECT_DIR$/src/spark/partitioning/Start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <marker date="1539028127806" expanded="true" signature="400:407" ph="..." />
+                <marker date="1539028127806" expanded="true" signature="460:489" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pythonfromwork.txt">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/py4j/protocol.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3506">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state relative-caret-position="1733">
+              <caret line="319" selection-start-line="319" selection-end-line="319" />
             </state>
           </provider>
         </entry>
@@ -137,6 +129,19 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pip</find>
+      <find>python3</find>
+      <find>open</find>
+      <find>dict</find>
+      <find>combineByKey</find>
+      <find>combine</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -168,13 +173,27 @@
         <option value="$PROJECT_DIR$/src/spark/python/collection/list.py" />
         <option value="$PROJECT_DIR$/repository/examplecsv.csv" />
         <option value="$PROJECT_DIR$/src/spark/python/csvRead/Start.py" />
-        <option value="$PROJECT_DIR$/pythonfromwork.txt" />
         <option value="$PROJECT_DIR$/src/spark/python/exceptionHandling/Start.py" />
         <option value="$PROJECT_DIR$/src/spark/python/multilinePrint/Start.py" />
         <option value="$PROJECT_DIR$/src/spark/setOperations/Start.py" />
         <option value="$PROJECT_DIR$/src/spark/python/collection/dictionary.py" />
         <option value="$PROJECT_DIR$/src/spark/python/builtInFunctions/Start.py" />
         <option value="$PROJECT_DIR$/src/spark/python/osModuleToOperateOnDirs/Start.py" />
+        <option value="$PROJECT_DIR$/src/spark/aggregation/Start.py" />
+        <option value="$PROJECT_DIR$/src/spark/python/sysModule/Start.py" />
+        <option value="$PROJECT_DIR$/src/spark/python/sysModule/Arguments.py" />
+        <option value="$PROJECT_DIR$/src/spark/python/urllibToOperateOnWebPages/Start.py" />
+        <option value="$PROJECT_DIR$/src/spark/python/threading/Start.py" />
+        <option value="$PROJECT_DIR$/src/spark/python/subprocessRunningShellCommandsFromPython/Start.py" />
+        <option value="$PROJECT_DIR$/src/spark/python/cxFreezCreatingPythonExecutable/ScriptToBeExecutable.py" />
+        <option value="$PROJECT_DIR$/src/spark/python/cxFreezCreatingPythonExecutable/Source.py" />
+        <option value="$PROJECT_DIR$/src/spark/python/takingAndSendingFileIntoFTP/Start.py" />
+        <option value="$PROJECT_DIR$/src/spark/python/socket/Start.py" />
+        <option value="$PROJECT_DIR$/src/spark/python/serialization/Start.py" />
+        <option value="$PROJECT_DIR$/src/spark/python/evaluationmodule/Start.py" />
+        <option value="$PROJECT_DIR$/src/spark/keyValPairs/Start.py" />
+        <option value="$PROJECT_DIR$/pythonfromwork.txt" />
+        <option value="$PROJECT_DIR$/src/spark/partitioning/Start.py" />
       </list>
     </option>
   </component>
@@ -185,9 +204,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="314" />
-    <option name="y" value="157" />
-    <option name="width" value="1390" />
+    <option name="x" value="102" />
+    <option name="y" value="476" />
+    <option name="width" value="1380" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -206,11 +225,6 @@
             <path>
               <item name="PythonLearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -224,22 +238,7 @@
               <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="osModuleToOperateOnDirs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="setOperations" type="462c0819:PsiDirectoryNode" />
+              <item name="partitioning" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -259,15 +258,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/repository" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/spark/pysparkClusterRun/makeZip" />
       <recent name="$PROJECT_DIR$/src/spark/pysparkClusterRun/ToZip" />
       <recent name="$PROJECT_DIR$/repository/streming" />
       <recent name="$PROJECT_DIR$/src/spark" />
       <recent name="$PROJECT_DIR$/src/readDataFrame" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/repository" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -282,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Start (2)">
+  <component name="RunManager" selected="Python.Start (5)">
     <configuration name="Start (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -291,11 +290,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/spark/python/builtInFunctions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/spark/python/socket" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/spark/python/builtInFunctions/Start.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/spark/python/socket/Start.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -312,11 +311,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/spark/python/osModuleToOperateOnDirs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/spark/python/serialization" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/spark/python/osModuleToOperateOnDirs/Start.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/spark/python/serialization/Start.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -325,7 +324,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Start (4)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Start (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -333,11 +332,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/spark/setOperations" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/spark/python/evaluationmodule" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/spark/setOperations/Start.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/spark/python/evaluationmodule/Start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Start (5)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonLearn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/spark/partitioning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/spark/partitioning/Start.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -354,32 +374,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/spark/python/multilinePrint" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/spark/keyValPairs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/spark/python/multilinePrint/Start.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonLearn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/spark/python/collection" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/spark/python/collection/dictionary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/spark/keyValPairs/Start.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -389,19 +388,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Start" />
-      <item itemvalue="Python.Start (4)" />
-      <item itemvalue="Python.dictionary" />
       <item itemvalue="Python.Start (1)" />
       <item itemvalue="Python.Start (2)" />
+      <item itemvalue="Python.Start (3)" />
+      <item itemvalue="Python.Start" />
+      <item itemvalue="Python.Start (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Start (5)" />
+        <item itemvalue="Python.Start" />
+        <item itemvalue="Python.Start (3)" />
         <item itemvalue="Python.Start (2)" />
         <item itemvalue="Python.Start (1)" />
-        <item itemvalue="Python.dictionary" />
-        <item itemvalue="Python.Start (4)" />
-        <item itemvalue="Python.Start" />
       </list>
     </recent_temporary>
   </component>
@@ -422,7 +421,7 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28610957" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31377974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -430,17 +429,17 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26702702" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49837837" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.8976204" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="SBT Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.102379635" side_tool="true" visible="true" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -469,15 +468,29 @@
           <line>2</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/spark/python/serialization/Start.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/spark/partitioning/Start.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>rdd1.collect()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/repository/test.txt" />
-    <entry file="file://$PROJECT_DIR$/PythonLearn.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repository/out/part-00000-c6ad8a9f-3e56-4372-bcb1-5f9a7188d878-c000.json" />
     <entry file="file://$PROJECT_DIR$/repository/conv.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -623,20 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spark/setOperations/Start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonfromwork.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3506">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spark/python/collection/dictionary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -655,6 +654,133 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spark/setOperations/Start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spark/python/sysModule/Logging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spark/python/sysModule/Arguments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spark/python/urllibToOperateOnWebPages/Start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spark/python/threading/Start.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spark/python/subprocessRunningShellCommandsFromPython/Start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spark/python/cxFreezCreatingPythonExecutable/ScriptToBeExecutable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spark/python/cxFreezCreatingPythonExecutable/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spark/python/takingAndSendingFileIntoFTP/Start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spark/python/socket/Start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repositorydictfile" />
+    <entry file="file://$PROJECT_DIR$/src/spark/python/serialization/Start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pyspark/streaming/dstream.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="142" column="23" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonfromwork.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spark/aggregation/Start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spark/python/evaluationmodule/Start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spark/keyValPairs/Start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/py4j/protocol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1733">
+          <caret line="319" selection-start-line="319" selection-end-line="319" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spark/partitioning/Start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <marker date="1539028127806" expanded="true" signature="400:407" ph="..." />
+            <marker date="1539028127806" expanded="true" signature="460:489" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

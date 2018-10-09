@@ -1,11 +1,71 @@
 Ctrl+Shift+I
 
 Don't use object field in rdd operations because it will cause hole object serialization(example referencingToClassInPyspark)
+Special functions on some type rdd(np .mean() etc) in python can be run for any Rdd but will fail in runtime.
+Python work on one thread (there's walk around like threading) - https://pythonprogramming.net/threading-tutorial-python/
+To make python executable - https://pythonprogramming.net/converting-python-scripts-exe-executables/
 
+Matplotlib - module for data visualization:
+
+basic spark functions (very general used by others):
+1. .combineByKey(createAccumulatorOnPartition,addValueForNextKeyElementToAccumulatorOnPartition,mergeAccumulatorsBetweenPartitions)
+2. .cogroup(RDD) make two iterable with one key for every rdd
+
+Evaluation modules:
+eval("some code")  //it evaluate code but not compile
+exec("")  //compile code and evaluate
+exec("[1,2,3,4]") //do nothing
+exec("something=[1,2,3,4]") // make variable something with list
+exec("""
+def someF():
+    print("working!")
+""")
+someF()
+
+Serialization/marshalling:
+1. Import pickle module
+import pickle
+2. Serialize to file (keep object type):
+sl = [1,2,3,4,5]
+path = "/home/tzablock/IdeaProjects/PythonLearn/repository/"
+lf = open(path+"listfile.pickle","wb")
+pickle.dump(sl,lf)
+lf.close()
+3.Read serialized file:
+lrf = open(path+"listfile.pickle","rb")
+rsl = pickle.load(lrf)
+lrf.close()
+
+
+To run shell from python:
+import subprocess
+# just run command on shell
+subprocess.call("ls",shell=True)
+# take output of command in shell
+output = subprocess.check_output("ls",shell=True)
+
+Logging in python:
+1. as error
+sys.stderr.write("...")
+2. as standard output
+sys.stdout.write("...")
+
+Script arguments:
+sys.argv[n]
+
+.cache()/.persist(),.unpersist()  - to manage inmemory data caching
 Csv read:
 1. with open("/home/tzablock/IdeaProjects/PythonLearn/repository/examplecsv.csv") as exampleCSV:
 2.     readCSV = csv.reader(exampleCSV,delimiter = ',')
 we get list of lists with elements from row
+
+Connecting to ftp:
+/PythonLearn/src/spark/python/takingAndSendingFileIntoFTP/Start.py
+
+To convert python2 into python3 script:
+PythonDirectory / Tools / scripts / 2to3.py -w scriptname.py
+To show diffrences on console between 2 and 3 is:
+PythonDirectory / Tools / scripts / 2to3.py somescript.py
 
 Exception handling:
 try:
@@ -154,7 +214,7 @@ Write to file:
 
 If file not exist it will be created
 
-file=open("file/path","w") //w->write a->append
+file=open("file/path","w") //w->write a->append wb-> write bytes
 
 file.write("content")
 
@@ -164,7 +224,7 @@ Read file:
 
 As string
 
-c=open("file/path","r").read()
+c=open("file/path","r").read()   //r-> read rb-> read bytes
 
 As list
 
