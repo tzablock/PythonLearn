@@ -1,5 +1,14 @@
 Ctrl+Shift+I
 
+PySpark:
+To change number of partitions for DataFrame:
+.repartition(1)
+To aggregate on grouped data by predefined functions:
+from pyspark.sql import functions as F
+df.groupBy("col").agg(F.max("col1").alias("alias"))
+
+
+
 Don't use object field in rdd operations because it will cause hole object serialization(example referencingToClassInPyspark)
 Special functions on some type rdd(np .mean() etc) in python can be run for any Rdd but will fail in runtime.
 Python work on one thread (there's walk around like threading) - https://pythonprogramming.net/threading-tutorial-python/
